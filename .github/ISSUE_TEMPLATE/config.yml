@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the Project Book online
+    url: https://satyamchouksey-88.github.io/local-agentic-ai-platform/
+    about: Check the book before opening an issue.
+  - name: Report sensitive content privately
+    url: https://github.com/SatyamChouksey-88/local-agentic-ai-platform/security/advisories/new
+    about: For credentials, personal data or anything that should not be public.

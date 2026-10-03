@@ -1,0 +1,16 @@
+name: Question
+description: Something in the Project Book is unclear
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Chapter or section
+      placeholder: "Chapter 9, Team Packs"
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
