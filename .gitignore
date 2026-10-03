@@ -8,6 +8,7 @@ desktop.ini
 # Local scratch files
 _*.txt
 _*.py
+_*.mjs
 *.mmd.svg
 
 # Secrets (never commit)
