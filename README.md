@@ -40,7 +40,7 @@ The design has three layers:
 Every request is designed to follow the same path: the Prompt Architect structures it, the Planner breaks it into steps, workers act only through a policy-checked tool gateway, and the Verifier decides from evidence whether the result is accepted.
 
 ```mermaid
-flowchart LR
+flowchart TD
   accTitle: Agent Runtime architecture
   accDescr: A request passes through the Prompt Architect and the Planner to the runtime core. Every tool call is checked by the policy engine. The Verifier accepts, rejects or escalates each result. Project Onboarding gives the Planner a Project Brief.
   REQ["Request"] --> PA["Prompt Architect"]
@@ -136,7 +136,7 @@ The book's agent catalogue lists 19 roles as a menu, not a staffing plan. Phase 
 The plan uses gates with exit criteria, not calendar dates. Only Phases 0 and 1 are requested for approval now.
 
 ```mermaid
-flowchart LR
+flowchart TD
   accTitle: Phase-gate roadmap
   accDescr: Phase 0 Discovery leads to Phase 1 Runtime core, which ends in a Go, Hold or Stop decision. Go leads to Phase 2, Phase 3, Phase 4 and then continuous operation. Hold allows one improvement cycle and a re-run. Stop ends the project and keeps the lessons.
   P0["Phase 0: Discovery"] --> P1["Phase 1: Runtime core"]
