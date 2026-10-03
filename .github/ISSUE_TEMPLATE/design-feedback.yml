@@ -1,0 +1,25 @@
+name: Design feedback
+description: A concern, gap or suggestion about the design in the Project Book
+title: "[Design] "
+labels: ["design feedback"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Chapter or section
+      description: Which part of Project Book v2.0 is this about?
+      placeholder: "Chapter 21, Policy engine and approvals"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What is missing, unclear or risky, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change
+      description: Optional. How would you change the design?
