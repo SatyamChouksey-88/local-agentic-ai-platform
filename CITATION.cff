@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you refer to this design, please cite it as below."
+title: "Local Agentic AI Platform: Project Book v2.0"
+authors:
+  - family-names: Chouksey
+    given-names: Satyam
+version: "2.0.0"
+date-released: "2026-10-03"
+url: "https://satyamchouksey-88.github.io/local-agentic-ai-platform/"
+repository-code: "https://github.com/SatyamChouksey-88/local-agentic-ai-platform"
+abstract: "A design for supervised AI agents that support every software delivery team on company-controlled infrastructure. Design stage: documentation only, no implementation code."
+keywords:
+  - agentic AI
+  - human-in-the-loop
+  - AI governance
+  - multi-agent systems
+  - local LLM
+preferred-citation:
+  type: report
+  title: "Local Agentic AI Platform: Project Book v2.0"
+  authors:
+    - family-names: Chouksey
+      given-names: Satyam
+  year: 2026
+  month: 10
+  url: "https://github.com/SatyamChouksey-88/local-agentic-ai-platform/releases/tag/v2.0.0"
